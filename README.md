@@ -63,9 +63,11 @@ $ yarn run test:cov
 ```bash
 # Initialize the prisma
 $ npx prisma init
+
 # Generate migrations from prisma schema
 $ npx prisma migrate dev
 
+# Opens the database ui/client
 $ npx prisma studio
 ```
 

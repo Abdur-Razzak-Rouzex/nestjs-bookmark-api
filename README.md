@@ -60,7 +60,20 @@ $ yarn run test:cov
 
 ## Prisma Commands
 
+```bash
+# Initialize the prisma
 $ npx prisma init
+# Generate migrations from prisma schema
+$ npx prisma migrate dev
+
+$ npx prisma studio
+```
+
+## Docker Commands
+
+```bash
+$ docker compose up dev-db -d
+```
 
 ## Support
 
